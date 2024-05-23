@@ -1,3 +1,4 @@
+# The Accounts.py file contains the Account class with methods to set the balance and interest.
 """ Create a Account class with methods"""
 
 class Account:
@@ -15,3 +16,7 @@ class Account:
     def set_interest(self, interest):
         """Sets the interest gained for the the account"""
         self.interest = interest
+
+    def get_interest(self):
+        """Returns the interest gained for the account"""
+        return self.interest
